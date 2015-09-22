@@ -19,5 +19,8 @@ freeiot与设备之间通过smartconfig进行配置。FreeIOT是Tisan的在移�
 <img src="Image/app_config.png" width = "360" height = "640" alt="FreeIoT登陆" align=center />  
   
 5 如果没配上，可重复操作步骤3和步骤4；  
-6 配置成功后，往下拉一下，刷新设备列表，找到刚配置成功的设备，点击进去，就进入操作该设备的主界面！用户可进行设备状态查询、远程控制等功能。 
-<img src="Image/app_main.png" width = "360" height = "640" alt="FreeIoT登陆" align=center />  
+6 配置成功后，往下拉一下，刷新设备列表，找到刚配置成功的设备，点击进去，就进入操作该设备的主界面！用户可进行设备状态查询、远程控制等功能。   
+
+<img src="Image/app_main.png" width = "360" height = "640" alt="FreeIoT登陆" align=center />   
+
+
