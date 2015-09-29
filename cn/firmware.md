@@ -3,22 +3,22 @@
 这里给开发者讲解如何进行固件开发，如何结合[WebIDE](http://tisan.pandocloud.com)开发自己的产品。
 
 ## 准备工作  
- 搭建环境和准备好SDK，参考[快速开始](快速开始.md)  
+ 搭建环境和准备好SDK，参考[快速开始](quick-start.md)  
 
 ## 在WebIDE中添加产品  
-在WebIDE中添加产品，并保存。如何使用WebIDE可以参考[WebIDE开发](界面开发.md)  
+在WebIDE中添加产品，并保存。如何使用WebIDE可以参考[WebIDE开发](wed-ide.md)  
 
 ## 取得产品Key  
 在WebIDE的工作区添加产品，取得产品key：  
-<img src="image/w_prod_key.png" width = "600" height = "400" alt="main" align=center />   
+![w_prod_key](image/w_prod_key.png)   
 点击“查看”，在弹出框里将key的字符串复制到device_config.h文件中宏定义PANDO_PRODUCT_KEY的值。  
 device_config.h文件在SDK的 **app/user** 目录下：  
-<img src="image/w_prod_key_edit.png" width = "600" height = "400" alt="main" align=center />   
+![w_prod_key_edit](image/w_prod_key_edit.png)   
   
 
 ## 组织产品组件代码   
 点击WebIDE中产品组件区域所选的组件，会弹出一个代码预览框，该代码即为pando框架中object（组件）的基础代码，复制的SDK中 **app/user/objects** 目录下，只要稍作修改就可以使用。 下面示例是一个RGB灯的产品示例：  
-<img src="image/w_obj_edit.png" width = "600" height = "400" alt="main" align=center />   
+![w_obj_edit](image/w_obj_edit.png)   
 代码预览中的led.c和led.h复制到SDK中 **app/user/objects** 目录下，如图：  
 ![添加led组件示例代码](image/w_objcode_add.png)  
 需要对led.c补充驱动代码，注意是补充代码中**TODO:**的函数：  

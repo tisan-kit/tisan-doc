@@ -2,8 +2,9 @@
 
 ## 中文
 
-1. [快速开始](cn/快速开始.md)
-2. [硬件介绍](cn/硬件介绍.md)
-3. [开发环境](cn/开发环境.md)
-4. [固件开发](cn/固件开发.md)
-5. [WebIDE开发指南](cn/界面开发.md)
+1. [快速开始](cn/quick-start.md)
+2. [硬件介绍](cn/hardware.md)
+3. [开发环境](cn/environment.md)
+4. [固件开发](cn/firmware.md)
+5. [WebIDE开发指南](cn/wed-ide.md)
+6. [微信支持](cn/wechat-support.md)
