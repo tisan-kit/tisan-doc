@@ -6,5 +6,5 @@
 2. [硬件介绍](cn/hardware.md)
 3. [开发环境](cn/environment.md)
 4. [固件开发](cn/firmware.md)
-5. [WebIDE开发指南](cn/wed-ide.md)
+5. [WebIDE开发指南](cn/web-ide.md)
 6. [微信支持](cn/wechat-support.md)
