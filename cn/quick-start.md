@@ -4,7 +4,8 @@
 ## 开箱即用体验Tisan  
 首次拿到Tisan开发板，开箱即用，立马体验！注意请在WiFi环境中体验，因为需要WiFi的SSID和密码： 
  
-- [关联与互动](Guide/app_dev.md): 下载手机app，并进行注册用户和关联设备。  
+- [app关联与互动](Guide/app_dev.md): 下载手机app，并进行注册用户和关联设备。  
+- [微信关联与互动](wechat-support.md):关注微信公众号进行扫描控制！  
   
 ## 快速开发入门  
 - 下载[SDK](https://github.com/PandoCloud/tisan-demo/archive/master.zip): 该SDK是Tisan的嵌入式的源码，包括了相关的软件包、应用程序接口API、软件框架等。  
