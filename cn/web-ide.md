@@ -1,7 +1,11 @@
-# WebIDE开发指南
-WebIDE的介绍  
+# WebIDE介绍
+WebIDE首先是为了配合Tisan的pando开发框架而生，另外一方面，WebIDE给开发者提供了一个新的开发模式和开发思维，非常具有创新意义！当然更重要的是给开发者带来了简单、快速、高效的开发！  
+WebIDE以可视化的界面进行呈现， 开发者通过WebIDE添加产品，在产品里面添加应用组件，把产品组件的自动生成代码拷贝到SDK的指定文件夹里的新建文件里，具体过程可参考[SDK固件开发](firmware.md)。   
+WebIDE还提供微信二维码扫描，帮助用户使用微信接入的功能，具体详情可参考[微信支持](wechat-support.md)。  
+ 
 
-## WebIDE  
+## WebIDE开发指南  
+  
 进入[WebIDE](http://tisan.pandocloud.com)所在网址:  
 ![进入WebIDE](image/w_main.png)  
 

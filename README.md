@@ -8,4 +8,4 @@
 4. [固件开发](cn/firmware.md)
 5. [WebIDE开发指南](cn/web-ide.md)
 6. [微信支持](cn/wechat-support.md)
-7. [常见问题](cn/Guide/Troubleshooting.md)
+7. [常见问题](cn/Guide/FQA.md)
