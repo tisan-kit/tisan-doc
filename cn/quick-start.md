@@ -7,7 +7,7 @@
 - [关联与互动](Guide/app_dev.md): 下载手机app，并进行注册用户和关联设备。  
   
 ## 快速开发入门  
-- 下载[SDK](): 软件包、应用程序接口API、软件框架、硬件平台等开发应用的开发工具的集合。  
+- 下载[SDK](https://github.com/PandoCloud/tisan-demo/archive/master.zip): 该SDK是Tisan的嵌入式的源码，包括了相关的软件包、应用程序接口API、软件框架等。  
 - 编程IDE：一个免安装版的编程IDE，用于调试代码、编译程序，非常方便。  
   下载[编程IDE](http://pan.baidu.com/s/1qW9VpX6)，下载后解压即可。
 - [烧写软件](http://pan.baidu.com/s/1bnyk36n)：将编译后的bin文件烧写到模块上。  
@@ -19,10 +19,9 @@
 
 ## 更多了解Tisan  
 
-- [介绍](Guide/Introduction.md)：说说Tisan是什么和为什么你想要使用它。  
-- [SDK]()： 软件包、应用程序接口API、软件框架、硬件平台等开发应用的开发工具的集合。  
+- [介绍](Guide/Introduction.md)：详细介绍Tisan。   
 - [Pando](firmware.md): 嵌入式的开发框架，类似于中间件，消除了联网、接入云服务的复杂性，提供开发接口给嵌入式开发者，让开发者可以快速搭建物联网产品的应用！   
-- [常见问题](Guide/Troubleshooting.md)：关于出现问题时该怎么做的建议。  
+- [常见问题](Guide/FAQ.md)：关于出现问题时该怎么做的建议。  
 指南的完整版请访问[基础部分]()，你可以深入了解Tisan的原理以及其背后的平台技术。  
 
 
