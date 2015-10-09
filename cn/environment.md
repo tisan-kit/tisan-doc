@@ -31,10 +31,8 @@
 ## 如何烧写固件  
   
 [烧写软件下载](http://pan.baidu.com/s/1bnyk36n)。    
-[USB转串口驱动](TODO:下载地址)    
-TODO：添加烧写软件的截图。
-点击下载软件的开始按键，按住开发板上的Flash按键，并同时按一下Reset按键，即可启动烧录。  
- 
+[USB转串口驱动](http://pan.baidu.com/s/1jGAOLAQ)    
+
 烧写方法如下：  
 
 1. 打开烧写软件：flash_download_tool_v0.9.6_150419.exe;
@@ -42,15 +40,18 @@ TODO：添加烧写软件的截图。
 3. “SPI MODE”处为QIO(默认就是）;  
 4. “FLASH SIZE”处改为“32Mbit”;  
 5. "COM"选择对应的串口号，波特率选择115200;  
-6. 点击“START”，开发板需要按Flash按键，并同时按一下Reset按键，即可启动烧录；  
+6. 点击“START”，开发板需要按住Flash按键，并同时按一下Reset按键，即可启动烧录；  
 7. 烧录结束后，按一下Reset按键后设备即可启动。    
 
   
 
-![烧写固件界面](image/download_bin_all2.jpg)  
-TODO： 截图提示必选和可选的指示 。
+![烧写固件界面](image/download_bin_all2.png)    
 
-烧写地址对应表（4M的flash）：  
+开发板按键示意图：  
+![烧录按键](image/shaolu1.png)  
+
+
+烧写地址对应表：  
 
 | bin file | address offset | Remark |  
 | -------- | -------------- | ------ | 
@@ -58,7 +59,7 @@ TODO： 截图提示必选和可选的指示 。
 | user1.4096.new.4.bin | 0x01000 | 用户程序，必选 |   
 | esp_init_data_default.bin | 0x3FC000 | 存储射频相关参数的初始值，首次使用开发板或者程序异常时需要勾选烧写 |    
 | blank.bin | 0x3FE000 | 由乐鑫官方提供，首次使用开发板或者程序异常时需要勾选烧写 |  
-| blank.bin | 0x7E0000 | 框架参数存储区， 必选 |    
+| blank.bin | 0x7E000 | 框架参数存储区， 必选 |    
 
 
 
