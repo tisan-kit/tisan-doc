@@ -1,29 +1,34 @@
-# Tisan快速入门  
-  
+# Tisan快速体验  
 
-## 开箱即用体验Tisan  
-首次拿到Tisan开发板，开箱即用，立马体验！注意请在WiFi环境中体验，因为需要WiFi的SSID和密码： 
- 
-- [app关联与互动](Guide/app_dev.md): 下载手机app，并进行注册用户和关联设备。  
-- [微信关联与互动](wechat-support.md):关注微信公众号进行扫描控制！  
-  
-## 快速开发入门  
-- 下载[SDK](https://github.com/PandoCloud/tisan-demo/archive/master.zip): 该SDK是Tisan的嵌入式的源码，包括了相关的软件包、应用程序接口API、软件框架等。  
-- 编程IDE：一个免安装版的编程IDE，用于调试代码、编译程序，非常方便。  
-  下载[编程IDE](http://pan.baidu.com/s/1qW9VpX6)，下载后解压即可。
-- [烧写软件](http://pan.baidu.com/s/1bnyk36n)：将编译后的bin文件烧写到模块上。  
-- [开发环境介绍](environment.md)，说明如何使用编程IDE进行编程？如何用编译软件进行编译？如何烧写软件？   
-- [WebIDE开发指南](web-ide.md)，WebIDE以可视化的界面进行呈现，开发者可对需要的应用添加相应的组件，WebIDE将自动生成组件代码，开发者只需将该组件代码、产品Key复制的嵌入式程序中，只需要极少的代码添加，就可以完成整个应用的开发！WebIDE极大的简化了开发！而且WebIDE还提供微信二维码扫描，帮助用户使用微信接入的功能。  
+## 体验Tisan  
+首次拿到Tisan开发板，默认已经烧录三色灯的固件，可以立马体验！注意请在WiFi环境中体验，因为需要WiFi的SSID和密码。 
 
+FreeIOT与设备之间通过smartconfig进行配置。FreeIOT是Tisan的在移动端的通用App，自由免费的，同时开源，有兴趣的开发者可在github下载[安卓版](https://github.com/PandoCloud/freeiot-android)或[IOS版](https://github.com/PandoCloud/freeiot-ios)的源码进行参考研究。
+首先下载FreeIOT。  
+- [安卓版下载地址](http://www.wandoujia.com/apps/com.pandocloud.freeiot)。  
+- IOS版请在appstore里面搜索最新版本的FreeIOT，并下载安装。   
+  
 
    
+下面以安卓为例，介绍App与设备之间的操作流程：   
+1. 安装**FreeIOT**  
+![app_0](image/app_0.png)    
+  
+2. 启动FreeIOT，如果没有账户，先注册用户，再登陆。  
+注册用户：     
+![app_regit](image/app_regit.png)  
+用户登陆：    
+![app_login](image/app_login.png)  
+    
+3. 长按Tisan开发板的配置键3秒，LED快闪，表示设备进入配置模式 
+4. 点击FreeIOT右上角的“添加”键，输入能够联网的WiFi以及密码，输完后点击“确定”，静等5到10秒，配置成功后会返回设备列表界面；  
+![app_config](image/app_config.png)  
+  
+5. 如果没配上，可重复操作步骤3和步骤4；  
+6. 配置成功后，往下拉一下，刷新设备列表，找到刚配置成功的设备，点击进去，就进入操作该设备的主界面！用户可进行设备状态查询、远程控制等功能。   
 
-## 更多了解Tisan  
-
-- [介绍](Guide/Introduction.md)：详细介绍Tisan。   
-- [Pando](firmware.md): 嵌入式的开发框架，类似于中间件，消除了联网、接入云服务的复杂性，提供开发接口给嵌入式开发者，让开发者可以快速搭建物联网产品的应用！   
-- [常见问题](Guide/FAQ.md)：关于出现问题时该怎么做的建议。  
-指南的完整版请访问[基础部分]()，你可以深入了解Tisan的原理以及其背后的平台技术。  
+![app_main](image/app_main.png)   
+ 
 
 
 
