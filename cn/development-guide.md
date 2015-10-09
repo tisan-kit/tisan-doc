@@ -9,7 +9,6 @@
 如果是首次使用[WebIDE](http://tisan.pandocloud.com)，请先注册账号，并登陆，在工作区里面进行产品开发，注意该IDE只支持Google Chrome浏览器，请先安装该浏览器。  
 
 1. 在工作区添加产品:
-
 ![add_product](image/w_add_p0.png)
 
 2. 获取产品Key，录入产品信息（产品名称、介绍），添加产品需要的组件，操作结束后保存:  
