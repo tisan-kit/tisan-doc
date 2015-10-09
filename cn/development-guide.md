@@ -8,22 +8,21 @@
 ## 在WebIDE中添加产品  
 如果是首次使用[WebIDE](http://tisan.pandocloud.com)，请先注册账号，并登陆，在工作区里面进行产品开发，注意该IDE只支持Google Chrome浏览器，请先安装该浏览器。  
 
-1. 在工作区添加产品:
+1. 在工作区添加产品:  
+
 ![add_product](image/w_add_p0.png)
 
 2. 获取产品Key，录入产品信息（产品名称、介绍），添加产品需要的组件，操作结束后保存:  
+
 ![get_p_key](image/work_addp1.png)    
 
 3. 录入产品信息、介绍: 
-
 ![input_pd_info](image/work_addp2.png)    
 
 4. 添加产品需要的组件:  
-
 ![add_pd_obj](image/work_addp3.png)   
 
 5. 添加完成后可直接浏览手机应用程序的界面:  
-
 ![phone_look](image/work_addp5.png)   
 
 6. 最后保存
