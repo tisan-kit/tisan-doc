@@ -17,7 +17,7 @@
 4. 湿度的例子
 用跳帽短接DHT11和模块GOIO：DHT连GPIO12，同温度的例子  
 在user_mian的函数中添加“humiture_object_init()"  
-5.继电器的例子
+5. 继电器的例子
 用跳帽短接继电器和模块GPIO：JDQ连GPIO12，如下图：  
 ![继电器连接示意图](image/example-jdq.png)  
 在user_main的函数中添加“plug_object_init”  
