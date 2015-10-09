@@ -30,7 +30,7 @@
 
 ## 如何烧写固件  
   
-[烧写软件下载](http://pan.baidu.com/s/1bnyk36n)。    
+[烧写软件下载](http://pan.baidu.com/s/1bnuNZ59)。    
 [USB转串口驱动](http://pan.baidu.com/s/1jGAOLAQ)    
 
 烧写方法如下：  
@@ -45,7 +45,7 @@
 
   
 
-![烧写固件界面](image/download_bin_all2.png)    
+![烧写固件界面](image/download_bin_all3.png)    
 
 开发板按键示意图：  
 ![烧录按键](image/shaolu1.png)  

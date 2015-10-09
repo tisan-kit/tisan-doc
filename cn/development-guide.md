@@ -3,13 +3,13 @@
 这里给开发者讲解如何进行固件开发，如何结合WebIDE开发自己的产品。
 
 ## 准备工作  
- 搭建环境和准备好SDK，参考[快速开始](quick-start.md)  
+ 搭建环境和准备好SDK，参考[开发环境](environment.md)  
 
 ## 在WebIDE中添加产品  
 如果是首次使用[WebIDE](http://tisan.pandocloud.com)，请先注册账号，并登陆，在工作区里面进行产品开发，注意该IDE只支持Google Chrome浏览器，请先安装该浏览器。  
 
 1. 在工作区添加产品:  
-![add_product](image/w_add_p0.png)
+![add_product](image/w_add_p0.png)  
 
 2. 获取产品Key，录入产品信息（产品名称、介绍），添加产品需要的组件，操作结束后保存:  
 ![get_p_key](image/work_addp1.png)    
@@ -20,10 +20,10 @@
 4. 添加产品需要的组件:    
 ![add_pd_obj](image/work_addp3.png)   
 
-5. 添加完成后可直接浏览手机应用程序的界面:  
+5. 添加完成后可直接浏览手机应用程序的界面:    
 ![phone_look](image/work_addp5.png)   
 
-6. 最后保存
+6. 最后保存  
 ![save_pd](image/work_addp7.png)    
 
 
@@ -47,10 +47,7 @@ device_config.h文件在SDK的 **app/user** 目录下：
 ```c
 #include "../../peripheral/peri_rgb_light.h"
 ``` 
-添加obj编号,**注意同一个工程里面的obj编号必须唯一**：  
-```c
-#define LED_OBJECT_NO 1
-```  
+
 2. 补充初始化函数，注意，初始化调用的外设请在**peripheral**中相应的驱动里面去配置：  
 ```c  
 void ICACHE_FLASH_ATTR
@@ -94,6 +91,8 @@ led_get(struct led* value)
 
 ## 编译代码  
 代码补充完毕后，直接编译，生成bin文件，就可以对Tisan进行烧录了！ 烧录的方法请参考[固件烧录](environment.md#如何烧写固件)   
+
+
 
 
 
