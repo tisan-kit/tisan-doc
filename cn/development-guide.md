@@ -13,7 +13,6 @@
 ![add_product](image/w_add_p0.png)
 
 2. 获取产品Key，录入产品信息（产品名称、介绍），添加产品需要的组件，操作结束后保存:  
-
 ![get_p_key](image/work_addp1.png)    
 
 3. 录入产品信息、介绍: 
