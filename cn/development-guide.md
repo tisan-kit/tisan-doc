@@ -1,12 +1,12 @@
 # 开发指南  
 
-这里给开发者讲解如何进行固件开发，如何结合[WebIDE](http://tisan.pandocloud.com)开发自己的产品。
+这里给开发者讲解如何进行固件开发，如何结合WebIDE开发自己的产品。
 
 ## 准备工作  
  搭建环境和准备好SDK，参考[快速开始](quick-start.md)  
 
 ## 在WebIDE中添加产品  
-如果是首次使用WebIDE，请先注册账号，并登陆，在工作区里面进行产品开发。  
+如果是首次使用[WebIDE](http://tisan.pandocloud.com)，请先注册账号，并登陆，在工作区里面进行产品开发，注意该IDE只支持Google Chrome浏览器，请先安装该浏览器。  
 
 1. 在工作区添加产品:  
 ![add_product](image/w_add_p0.png)
