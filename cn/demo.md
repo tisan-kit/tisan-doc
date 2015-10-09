@@ -7,7 +7,7 @@
 在user_main的函数中添加“led_object_init()”；
 2. 电机的例子
 用跳帽短接电机驱动和模块GPIO：IA连GPIO13，IB连GPIO12，如下图：
-![电机连接示意图](image/example-rgb.png) 
+![电机连接示意图](image/example-motor.png)   
 在user_main的函数中添加“motor_object_init()”
 3. 温度的例子
 用跳帽短接DHT11和模块GPIO：DHT连GPIO12,如下图：
