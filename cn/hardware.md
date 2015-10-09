@@ -50,11 +50,11 @@ Tisan核心板上ESP-12模块封装了ESP8266EX芯片和一个25Q32的Flash芯�
 开发板有11个通用GPIO可以设置为输入或输出，工作电压为3.3V。每一路IO口最大驱动能力为12mA。  
 管脚使用清单：  
 
-| 功能名称 | 对应的管脚号 | 说明 |    
+| 功能名称 | 管脚号 | 说明 |    
 | ---- | ------ | ---- |    
 | 通用串口 | RXD：GPIO1 <br> TXD：GPIO3 | 对应了Tisan板上的TXD和RXD管脚，用于接收或者发送TTL电平信号的串口数据。这些管脚连接到相应的CH340的USB转TTL电平的串口芯片上 |    
 | 串口1 | TXD：GPIO2 | 改串口只有TX部分可以用 |    
-| PWM |  通用GPIO即可 | PWM接口由软件实现，GPIO的PWM功能可自行扩展和定义 |     
+| PWM |  通用GPIO即可实现 | PWM接口由软件实现，GPIO的PWM功能可自行扩展和定义 |     
 | SPI | MISO：GPIO12 <br> MOSI：GPIO13 <br> CLK：GPIO14 <br> CS：GPIO15 | 注意这几个管脚都有复用，选用SPI功能的时候，就不能用作其他外设了 |   
 | LED | GPIO5 | 核心板载信号灯 |   
 | 配置按键 | GPIO4 | 核心板载配置按键，用于配置wifi连接 |  
