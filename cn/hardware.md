@@ -40,10 +40,10 @@ Tisan核心板上采用的是安信可科技的ESP-12模块：
 - **主控** 封装了ESP8266EX芯片。  
 - **主频** 支持80MHz和160MHz。    
 - **内存** ESP8266EX内置SRAM，由于需要加载基本的固件，用户可用剩余SRAM控件约为50KB（station模式下，连上路由后，heap+data区大致可用50KB左右）。    
-ESP8266EX芯片的数据手册、硬件使用指南、管脚清单等资料可以在乐鑫官网的论坛里面下载,[芯片使用指南](http://bbs.espressif.com/viewtopic.php?f=21&t=412&p=1545#p1545)   
+ESP8266EX芯片的数据手册、硬件使用指南、管脚清单等资料可以在乐鑫官网的论坛里面下载[芯片使用指南](http://bbs.espressif.com/viewtopic.php?f=21&t=412&p=1545#p1545)   
   
 ### 存储  
-Tisan核心板上ESP-12模块封装了ESP8266EX芯片和一个25Q32的Flash芯片，容量为4M字节，用户程序存放在外部的SPI Flash中。  
+Tisan核心板上ESP-12模块封装了ESP8266EX芯片和一个25Q32的Flash芯片，容量为4M字节，用户程序存放在外部Flash中。  
      
 ### 功能和管脚说明    
 底板的管脚是从核心板上引出。  
@@ -53,8 +53,8 @@ Tisan核心板上ESP-12模块封装了ESP8266EX芯片和一个25Q32的Flash芯�
 | 功能名称 | 管脚号 | 说明 |    
 | ---- | ------ | ---- |    
 | 通用串口 | RXD：GPIO1 <br> TXD：GPIO3 | 对应了Tisan板上的TXD和RXD管脚，用于接收或者发送TTL电平信号的串口数据。这些管脚连接到相应的CH340的USB转TTL电平的串口芯片上 |    
-| 串口1 | TXD：GPIO2 | 改串口只有TX部分可以用 |    
-| PWM |  通用GPIO即可实现 | PWM接口由软件实现，GPIO的PWM功能可自行扩展和定义 |     
+| 串口1 | TXD：GPIO2 | 该串口只有TX部分可以用 |    
+| PWM |  通用GPIO软件实现 | PWM接口由软件实现，GPIO的PWM功能可自行扩展和定义 |     
 | SPI | MISO：GPIO12 <br> MOSI：GPIO13 <br> CLK：GPIO14 <br> CS：GPIO15 | 注意这几个管脚都有复用，选用SPI功能的时候，就不能用作其他外设了 |   
 | LED | GPIO5 | 核心板载信号灯 |   
 | 配置按键 | GPIO4 | 核心板载配置按键，用于配置wifi连接 |  
