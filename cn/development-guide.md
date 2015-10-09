@@ -93,7 +93,7 @@ led_get(struct led* value)
 ![user_init](image/user_init.png)  
 
 ## 编译代码  
-代码补充完毕后，直接编译，生成bin文件，就可以对Tisan进行烧录了！  
+代码补充完毕后，直接编译，生成bin文件，就可以对Tisan进行烧录了！ 烧录的方法请参考[固件烧录](environment.md#如何烧写固件)   
 
 
 
