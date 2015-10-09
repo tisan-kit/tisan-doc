@@ -3,7 +3,7 @@
 - 嵌入式IDE编译环境  
 - 如何烧写固件  
 
-## 嵌入式IDE编译环境(embed-ide-guide)  
+## [嵌入式IDE编译环境](embed-ide-guide)  
 可以到这里下载IDE：[**8266_SDK_IDE**](http://yun.baidu.com/s/1sjG2r2P)。  
 解压缩后会得到以下文件：  
 ![解压缩文件](image/unpack1.jpg)  
@@ -28,7 +28,7 @@
  
  
 
-## 如何烧写固件(how-to-download-bin)  
+## [如何烧写固件](how-to-download-bin)  
   
 [烧写软件下载](http://pan.baidu.com/s/1bnuNZ59)。    
 [USB转串口驱动](http://pan.baidu.com/s/1jGAOLAQ)    
