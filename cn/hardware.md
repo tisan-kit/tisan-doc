@@ -40,7 +40,7 @@ Tisan核心板上采用的是安信可科技的ESP-12模块：
 - **主控** 封装了ESP8266EX芯片。  
 - **主频** 支持80MHz和160MHz。    
 - **内存** ESP8266EX内置SRAM，由于需要加载基本的固件，用户可用剩余SRAM控件约为50KB（station模式下，连上路由后，heap+data区大致可用50KB左右）。    
-ESP8266EX芯片的数据手册、硬件使用指南、管脚清单等资料可以在乐鑫官网的论坛里面下载[芯片使用指南](http://bbs.espressif.com/viewtopic.php?f=21&t=412&p=1545#p1545)   
+ESP8266EX芯片的数据手册、硬件使用指南、管脚清单等资料可以在乐鑫官网的论坛里面下载[芯片使用指南](http://bbs.espressif.com/viewtopic.php?f=51&t=815&sid=110e94f248c05f87bef1a4a14d8d71dd)   
   
 ### 存储  
 Tisan核心板上ESP-12模块封装了ESP8266EX芯片和一个25Q32的Flash芯片，容量为4M字节，用户程序存放在外部Flash中。  
