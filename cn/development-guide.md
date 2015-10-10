@@ -43,11 +43,11 @@ device_config.h文件在SDK的 **app/user** 目录下：
 ![添加led组件示例代码](image/w_objcode_add.png)  
 需要对led.c补充驱动代码，注意是补充代码中**TODO:**的函数：  
 
-1. 首先添加外设驱动的引用：    
+- 首先添加外设驱动的引用：    
 ```c
 #include "../../peripheral/peri_rgb_light.h"
 ``` 
-2. 补充初始化函数，注意，初始化调用的外设请在**peripheral**中相应的驱动里面去配置：  
+- 补充初始化函数，注意，初始化调用的外设请在**peripheral**中相应的驱动里面去配置：  
 ```c  
 void ICACHE_FLASH_ATTR
 led_init()
@@ -55,7 +55,7 @@ led_init()
 	peri_rgb_light_init();
 }
 ```
-3. 补充set和get方法，在这里是led_set以及led_get方法：  
+- 补充set和get方法，在这里是led_set以及led_get方法：  
 ```c  
 void ICACHE_FLASH_ATTR
 led_set(struct led* value)  
@@ -78,7 +78,7 @@ led_get(struct led* value)
 	light_value.pwm_duty[2] = value->blue;
 }
 ```  
-4. 另外如果object还有其他需要**TODO:**的地方，请参考TODO的提示来进行代码补充。  
+- 另外如果object还有其他需要**TODO:**的地方，请参考TODO的提示来进行代码补充。  
 
 ## 添加初始化代码
 在工程的入口函数user_init（在user_main.c里) 添加初始化代码。  
