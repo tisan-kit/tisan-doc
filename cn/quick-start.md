@@ -5,7 +5,7 @@
 
 FreeIOT与设备之间通过smartconfig进行配置。FreeIOT是Tisan的在移动端的通用App，自由免费的，同时开源，有兴趣的开发者可在github下载[安卓版](https://github.com/PandoCloud/freeiot-android)或[IOS版](https://github.com/PandoCloud/freeiot-ios)的源码进行参考研究。
 首先下载FreeIOT。  
-- [安卓版下载地址](http://www.wandoujia.com/apps/com.pandocloud.freeiot)。  
+- [安卓版下载地址](http://shouji.baidu.com/software/item?docid=7996553&from=as&qq-pf-to=pcqq.discussion)。  
 - IOS版请在appstore里面搜索最新版本的FreeIOT，并下载安装。   
   
 
