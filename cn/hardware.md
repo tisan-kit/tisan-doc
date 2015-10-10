@@ -4,7 +4,7 @@ Tisan的核心板基于乐鑫的ESP8266。ESP8266是一款SOC WIFI芯片，可�
 Tisan底板，也叫Tisan基板，连接核心板和支持接入各种外设板，板载几种典型的传感器。  
 ## 技术规格  
  
-核心板的核心模块型号是ESP-12。ESP8266是一款高度集成的芯片，该芯片专门针对无线连接的需求而开发，是一个完整且自成系统的 Wi-Fi 网络解决方案。[芯片手册下载](http://bbs.espressif.com/download/file.php?id=714)  
+核心板的核心模块型号是ESP-12。ESP8266是一款高度集成的芯片，该芯片专门针对无线连接的需求而开发，是一个完整且自成系统的 Wi-Fi 网络解决方案。请在乐鑫官方论坛查找[芯片手册](http://bbs.espressif.com/viewtopic.php?f=51&t=815&sid=110e94f248c05f87bef1a4a14d8d71dd)  
   
 ### 开发板资源介绍  
 ![开发板资源介绍](image/tisan-r1.png)
