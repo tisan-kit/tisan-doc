@@ -47,7 +47,6 @@ device_config.h文件在SDK的 **app/user** 目录下：
 ```c
 #include "../../peripheral/peri_rgb_light.h"
 ``` 
-
 2. 补充初始化函数，注意，初始化调用的外设请在**peripheral**中相应的驱动里面去配置：  
 ```c  
 void ICACHE_FLASH_ATTR
@@ -56,7 +55,6 @@ led_init()
 	peri_rgb_light_init();
 }
 ```
-
 3. 补充set和get方法，在这里是led_set以及led_get方法：  
 ```c  
 void ICACHE_FLASH_ATTR
