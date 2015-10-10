@@ -81,9 +81,9 @@ led_get(struct led* value)
 - 另外如果object还有其他需要**TODO:**的地方，请参考TODO的提示来进行代码补充。  
 
 ## 添加初始化代码
-在工程的入口函数user_init（在user_main.c里) 添加组件的初始化代码和相应的头文件。  
+在工程的入口函数user_init（在user_main.c里) 添加组件的初始化代码和相应的头文件引用。  
 添加规则：  
-在相应组件的.h文件找到初始化函数名(_init()结尾），例如led.h里面的led_object_init()；同时加入相应的头文件。  
+在相应组件的.h文件找到初始化函数名(_init()结尾），例如led.h里面的led_object_init()；同时加入相应的头文件引用。  
 如图：  
 ![user_init](image/user_init.png)  
 
