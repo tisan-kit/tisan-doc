@@ -7,7 +7,7 @@
 ![核心板方向示意图](image/example-rgb.png)  
 在user_main文件中添加文件引用：  
 ```c 
-#include "objects/led.h  
+#include "objects/led.h"  
 ```
 在user_main文件的user_init函数中添加以下代码：  
 ```c
@@ -18,7 +18,7 @@ led_object_init();
 ![电机连接示意图](image/example-motor.png)   
 在user_main文件中添加文件引用：  
 ```c 
-#include "objects/motor.h  
+#include "objects/motor.h"  
 ```
 在user_main文件的user_init函数中添加以下代码：  
 ```c
@@ -29,7 +29,7 @@ motor_object_init();
 ![温度连接示意图](image/example-dht11.png)  
 在user_main文件中添加文件引用：  
 ```c 
-#include "objects/temperature.h  
+#include "objects/temperature.h"  
 ```
 在user_main文件的user_init函数中添加以下代码：  
 ```c
@@ -39,7 +39,7 @@ temperature_object_init();
 用跳帽短接DHT11和模块GOIO：DHT连GPIO12，同温度的例子  
 在user_main文件中添加文件引用：  
 ```c 
-#include "objects/humiture.h  
+#include "objects/humiture.h"  
 ```
 在user_main文件的user_init函数中添加以下代码：  
 ```c
@@ -50,7 +50,7 @@ humiture_object_init();
 ![继电器连接示意图](image/example-jdq.png)  
 在user_main文件中添加文件引用：  
 ```c 
-#include "objects/jdq.h  
+#include "objects/jdq.h"  
 ```
 在user_main文件的user_init函数中添加以下代码：  
 ```c
