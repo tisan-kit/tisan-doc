@@ -6,9 +6,13 @@
 用跳帽短接三色灯和模块GPIO：BLED连GPIO13，RlED连GPIO14，GLED连GPIO15,如下图：  
 ![核心板方向示意图](image/example-rgb.png)  
 在user_main文件中添加文件引用：  
-``` #include "objects/led.h  
+```c 
+#include "objects/led.h  
+```
 在user_main文件的user_init函数中添加以下代码：  
-``` led_object_init();  
+```c
+led_object_init(); 
+```
 2. 电机的例子  
 用跳帽短接电机驱动和模块GPIO：IA连GPIO13，IB连GPIO12，如下图：  
 ![电机连接示意图](image/example-motor.png)   
