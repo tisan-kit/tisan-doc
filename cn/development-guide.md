@@ -37,7 +37,7 @@ device_config.h文件在SDK的 **app/user** 目录下：
 
 ## 组织产品组件代码   
 **说明：如果直接采用Tisan DEMO里面的默认示例，则已经实现该步骤，可直接进入[添加初始化代码](#添加初始化代码)操作即可。**  
-点击WebIDE中产品组件区域所选的组件，会弹出一个代码预览框，该代码即为pando框架中object（组件）的基础代码，复制的SDK中 **app/user/objects** 目录下，只要稍作修改就可以使用。 下面示例是一个RGB灯的产品示例：  
+点击WebIDE中产品组件区域所选的组件，会弹出一个代码预览框，该代码即为pando框架中object（组件）的基础代码，复制到SDK中 **app/user/objects** 目录下，只要稍作修改就可以使用。 下面示例是一个RGB灯的产品示例：  
 ![w_obj_edit](image/w_obj_edit.png)   
 代码预览中的led.c和led.h复制到SDK中 **app/user/objects** 目录下，如图：  
 ![添加led组件示例代码](image/w_objcode_add.png)  
