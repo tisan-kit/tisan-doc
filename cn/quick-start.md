@@ -34,6 +34,9 @@ FreeIOT与设备之间通过smartconfig进行配置。FreeIOT是Tisan的在移�
 ![app_main](image/app_m21.png)  
 点击进去可以看到如下控制界面：  
 ![app_main](image/app_m31.png)  
+
+## 更多体验  
+更多体验可参考[示例说明](demo.md)，可直接烧写程序进行其他项目的体验！  
  
 
 
