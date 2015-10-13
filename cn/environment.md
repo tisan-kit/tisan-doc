@@ -30,7 +30,7 @@
 
 ## 如何烧写固件  
   
-[烧写软件下载](http://pan.baidu.com/s/1bnuNZ59)。    
+[烧写软件下载](http://pan.baidu.com/s/1bnuNZ59)，**为保证烧录和应用正常，请务必使用该烧写软件！**    
 [USB转串口驱动](http://pan.baidu.com/s/1jGAOLAQ)    
 
 烧写方法如下：  
@@ -56,10 +56,10 @@
 | bin file | address offset | Remark |  
 | -------- | -------------- | ------ | 
 | boot_v1.2.bin | 0x00000 |  启动文件，首次使用开发板或者程序异常时需要勾选烧写 |  
-| user1.4096.new.4.bin | 0x01000 | 用户程序，必选 |   
+| user1.4096.new.4.bin | 0x01000 | 用户程序，**必选** |   
 | esp_init_data_default.bin | 0x3FC000 | 存储射频相关参数的初始值，首次使用开发板或者程序异常时需要勾选烧写 |    
 | blank.bin | 0x3FE000 | 由乐鑫官方提供，首次使用开发板或者程序异常时需要勾选烧写 |  
-| blank.bin | 0x7E000 | 框架参数存储区， 必选 |    
+| blank.bin | 0x7E000 | 框架参数存储区， **必选** |    
 
 
 
