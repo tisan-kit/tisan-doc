@@ -52,7 +52,7 @@ Tisan核心板上ESP-12模块封装了ESP8266EX芯片和一个25Q32的Flash芯�
 
 | 功能名称 | 管脚号 | 说明 |    
 | ---- | ------ | ---- |    
-| 通用串口 | RXD：GPIO1 <br> TXD：GPIO3 | 对应了Tisan板上的TXD和RXD管脚，用于接收或者发送TTL电平信号的串口数据。这些管脚连接到相应的CH340的USB转TTL电平的串口芯片上 |    
+| 通用串口 | RXD：GPIO1 <br> TXD：GPIO3 | 对应了Tisan板上的TXD和RXD管脚，  用于接收或者发送TTL电平信号的串口数据。  这些管脚连接到相应的CH340的USB转TTL电平的串口芯片上 |    
 | 串口1 | TXD：GPIO2 | 该串口只有TX部分可以用 |    
 | PWM |  通用GPIO软件实现 | PWM接口由软件实现，GPIO的PWM功能可自行扩展和定义 |     
 | SPI | MISO：GPIO12 <br> MOSI：GPIO13 <br> CLK：GPIO14 <br> CS：GPIO15 | 注意这几个管脚都有复用，选用SPI功能的时候，就不能用作其他外设了 |   
