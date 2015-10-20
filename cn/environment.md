@@ -5,7 +5,7 @@
 
 ## 嵌入式IDE编译环境  
 可以到这里下载IDE：[**8266_SDK_IDE**](http://yun.baidu.com/s/1sjG2r2P)。  
-解压缩后会得到以下文件：  
+解压缩文件，**注意IDE文件的路径不要出现中文，否则会造成编译异常**，解压后会得到以下文件：  
 ![解压缩文件](image/unpack1.jpg)  
 双击**ESP8266IDE**打开：  
 ![IDE主界面](image/d_click2.jpg)  
