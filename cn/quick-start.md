@@ -10,7 +10,9 @@ FreeIOT与设备之间通过smartconfig进行配置。FreeIOT是Tisan的在移�
   
 
    
-下面以安卓为例，介绍App与设备之间的操作流程：   
+下面以安卓为例，介绍App与设备之间的操作流程：  
+**另有快速体验的[视频教程](http://v.youku.com/v_show/id_XMTM2NDQyNjM4NA==.html?from=y1.7-1.2) **  
+      
 1. 安装**FreeIOT**  
 ![app_0](image/app_0.png)    
   
