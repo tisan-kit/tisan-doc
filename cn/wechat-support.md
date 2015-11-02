@@ -1,5 +1,6 @@
 # 微信支持  
 本文档说明如何通过关注freeiot公众号对硬件进行联网控制。  
+[微信源码在线参考](https://github.com/free-iot/freeiot-wechat)，或者可以下载[微信源码包](https://github.com/free-iot/freeiot-wechat/archive/master.zip)  
 
 ## 具体步骤    
 
