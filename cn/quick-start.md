@@ -3,8 +3,8 @@
 ## 体验Tisan  
 首次拿到Tisan开发板，默认已经烧录三色灯的固件，可以立马体验！注意请在WiFi环境中体验，因为需要WiFi的SSID和密码。 
 
-FreeIOT与设备之间通过smartconfig进行配置。FreeIOT是Tisan的在移动端的通用App，自由免费的，同时开源，有兴趣的开发者可在github下载[安卓版](https://github.com/PandoCloud/freeiot-android)或[IOS版](https://github.com/PandoCloud/freeiot-ios)的源码进行参考研究。
-首先下载FreeIOT。  
+FreeIOT与设备之间通过smartconfig进行配置。FreeIOT是Tisan的在移动端的通用App，自由免费的，同时开源，有兴趣的开发者可在github查阅和研究源码和文档，[安卓版在线源码](https://github.com/free-iot/freeiot-android)、也可下载[安卓版源码包](https://github.com/free-iot/freeiot-android/archive/master.zip) 或 [IOS版在线源码](https://github.com/free-iot/freeiot-ios)、也可下载[IOS源码包](https://github.com/free-iot/freeiot-ios/archive/master.zip)。   
+首先下载FreeIOT。   
 - [安卓版下载地址](http://shouji.baidu.com/software/item?docid=7996553&from=as&qq-pf-to=pcqq.discussion)。  
 - IOS版请在appstore里面搜索最新版本的FreeIOT，并下载安装。   
   
