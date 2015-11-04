@@ -9,3 +9,5 @@
 5. [示例说明](cn/demo.md)
 6. [微信支持](cn/wechat-support.md)
 7. [常见问题](cn/faq.md)
+8. [下载中心](http://pan.baidu.com/s/1c0r0ba4)
+
