@@ -7,7 +7,9 @@ Tisan-doc
 本文档在github上维护：
 [tisan-doc](https://github.com/tisan-kit/tisan-doc)  
 
-Tisan官方网站：[http://tisan.pandocloud.com/](http://tisan.pandocloud.com/)  
+Tisan官方网站：[http://tisan.pandocloud.com/](http://tisan.pandocloud.com/)   
+
+Tisan论坛链接：[http://bbs.elecfans.com/zhuti_820_1.html](http://bbs.elecfans.com/zhuti_820_1.html)  
 
 Tisan的资料和软件源码都在Github上维护，欢迎参与：  
 [https://github.com/tisan-kit](https://github.com/tisan-kit)  
