@@ -10,6 +10,8 @@ Tisan-doc
 Tisan官方网站：[http://tisan.pandocloud.com/](http://tisan.pandocloud.com/)   
 
 Tisan论坛链接：[http://bbs.elecfans.com/zhuti_820_1.html](http://bbs.elecfans.com/zhuti_820_1.html)  
+Tisan视频教程链接：[http://i.youku.com/u/UMTIwNTA2MTM2MA==](http://i.youku.com/u/UMTIwNTA2MTM2MA==)  
+
 
 Tisan的资料和软件源码都在Github上维护，欢迎参与：  
 [https://github.com/tisan-kit](https://github.com/tisan-kit)  
