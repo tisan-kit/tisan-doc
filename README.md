@@ -18,7 +18,7 @@ Tisan的资料和软件源码都在Github上维护，欢迎参与：
 [https://github.com/tisan-kit](https://github.com/tisan-kit)  
 [https://github.com/free-iot](https://github.com/free-iot)  
 
-Tisan平台服务源码在Github上维护，欢迎参与：
+Tisan平台服务源码在Github上维护，欢迎参与：  
 [https://github.com/PandoCloud/pando-cloud](https://github.com/PandoCloud/pando-cloud)  
 
 
