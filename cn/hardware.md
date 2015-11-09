@@ -73,5 +73,5 @@ Tisan核心板上ESP-12模块封装了ESP8266EX芯片和一个25Q32的Flash芯�
 
 ## 硬件开源文档 
 ### 包括：原理图、电路图和装配图  
-**TISAN开发板原理图**包括了[核心板原理图](reference/tisan-core-board-sch.pdf)和[底板原理图](reference/tisan-base-board-sch.pdf)  
-**TISAN电路图**包括了[核心板电路图](reference/tisan-core_pcb.pdf)和[底板电路图](reference/tisan_base_pcb.pdf)   
+**TISAN开发板原理图**包括了[核心板原理图](https://github.com/tisan-kit/tisan-doc/blob/master/cn/reference/tisan-core-board-sch.pdf)和[底板原理图](https://github.com/tisan-kit/tisan-doc/blob/master/cn/reference/tisan-base-board-sch.pdf)  
+**TISAN电路图**包括了[核心板电路图](https://github.com/tisan-kit/tisan-doc/blob/master/cn/reference/tisan-core_pcb.pdf)和[底板电路图](https://github.com/tisan-kit/tisan-doc/blob/master/cn/reference/tisan_base_pcb.pdf)   
