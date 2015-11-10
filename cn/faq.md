@@ -26,6 +26,18 @@
 ## 云端什么语言开发的？
 - go语言  
 
+## 为什么用app配置设备上网后，控制不了（安卓手机）？
+- 首先要确保是从百度应用商店下载的freeiot，其他手机助手下载的版本有可能不是最新的。百度应用商店下载地址：[freeiot安装包](http://shouji.baidu.com/software/item?docid=7996553&from=as&qq-pf-to=pcqq.discussion)  
+- 有可能是安卓手机系统的兼容性问题。freeiot的源码在github有开源，有安卓和iOS版，有兴趣的同学欢迎研究和贡献:[freeiot源码](https://github.com/free-iot)  
+
+## 如果是因为手机系统兼容性问题暂时freeiot测试有问题，又想玩Tisan，怎么办？   
+- 当然可以找能够兼容支持freeiot的手机来玩，从测试的情况来看，大部分还是支持的。  
+- 可以通过微信控制来玩，Tisan支持微信控制。但要通过微信控制需要自己进行编程、编译和烧写固件，最后在WebIDE上扫描二维码来添加设备。具体的过程可参考文档的[开发指南](development-guide.md)，以及[微信支持](wechat-support.md)  
+- 
+
+
+
+
 
 
 

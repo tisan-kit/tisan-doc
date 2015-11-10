@@ -21,11 +21,15 @@ Tisan的资料和软件源码都在Github上维护，欢迎参与：
 Tisan平台服务源码在Github上维护，欢迎参与：  
 [https://github.com/PandoCloud/pando-cloud](https://github.com/PandoCloud/pando-cloud)  
 
+Tisan资源下载中心：  
+[http://pan.baidu.com/s/1c0r0ba4](http://pan.baidu.com/s/1c0r0ba4)
+
 
 感谢所有的[贡献者](https://github.com/orgs/tisan-kit/people)  
 
 ## 更新历史  
 * V0.1 发布初始版本  
+* V0.2 更新WebIDE的相关操作、更新FAQ
 
 
 

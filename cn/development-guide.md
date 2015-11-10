@@ -20,11 +20,23 @@
 4. 添加产品需要的组件:    
 ![add_pd_obj](image/work_addp3.png)   
 
+	注意，当添加多个组件应用时，Label的名字不能重复，可以按照下面方式修改：  
+	![xiugai label](image/work_aee1.png)  
+	组件的object_no是区分应用的的编号，不能重复，WebIDE会自动生成，注意复制到固件编译时检查一下嵌入式的代码与WebIDE相应组件的object_no是否一致：  
+	![know object no](image/work_aee2.png)  
+
 5. 添加完成后可直接浏览手机应用程序的界面:    
 ![phone_look](image/work_addp5.png)   
 
 6. 最后保存  
 ![save_pd](image/work_addp7.png)    
+
+
+7. 另外，可进行更换产品logo  
+![change_logo1](image/work_addn1.png)  
+点击“点击上传图片”  上传图片  
+![change_logo2](image/work_addn2.png)  
+最后保存。  
 
 
 ## 取得产品Key  
@@ -37,7 +49,8 @@ device_config.h文件在SDK的 **app/user** 目录下：
 
 ## 组织产品组件代码   
 **说明：如果直接采用Tisan DEMO里面的默认示例，则已经实现该步骤，可直接进入[添加初始化代码](#添加初始化代码)操作即可。**  
-点击WebIDE中产品组件区域所选的组件，会弹出一个代码预览框，该代码即为pando框架中object（组件）的基础代码，复制到SDK中 **app/user/objects** 目录下，只要稍作修改就可以使用。 下面示例是一个RGB灯的产品示例：  
+点击WebIDE中产品组件区域所选的组件，会弹出一个代码预览框，该代码即为pando框架中object（组件）的基础代码，复制到SDK中 **app/user/objects** 目录下，只要稍作修改就可以使用。  
+下面示例是一个RGB灯的产品示例：  
 ![w_obj_edit](image/w_obj_edit.png)   
 代码预览中的led.c和led.h复制到SDK中 **app/user/objects** 目录下，如图：  
 ![添加led组件示例代码](image/w_objcode_add.png)  
