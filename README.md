@@ -1,5 +1,5 @@
-Tisan-doc  
-===   
+# Tisan-doc  
+*** 
   
 [Tisan](http://tisan.pandocloud.com/) 是面向开源的可产品化的物联网开发板，有硬件（Tisan开发板，当前核心模块基于ESP8266，一款SOC的WIFI芯片）以及软件（固件、云端编辑WebIDE、手机应用程序FreeIOT、微信应用、平台服务等）。  
 
@@ -9,7 +9,7 @@ Tisan-doc
 
 Tisan官方网站：[http://tisan.pandocloud.com/](http://tisan.pandocloud.com/)   
 
-Tisan QQ社区号1： 230508748；QQ社区号2：107925886；       
+Tisan QQ社区号1： 230508748；       
 Tisan论坛链接：[http://bbs.elecfans.com/zhuti_820_1.html](http://bbs.elecfans.com/zhuti_820_1.html)  
 Tisan视频教程链接：[http://i.youku.com/u/UMTIwNTA2MTM2MA==](http://i.youku.com/u/UMTIwNTA2MTM2MA==)  
 
@@ -27,9 +27,21 @@ Tisan资源下载中心：
 
 感谢所有的[贡献者](https://github.com/orgs/tisan-kit/people)  
 
+
+Tisan 其他开源应用项目说明和链接  
+
+| 项目名称  | 项目说明     |   实现情况    | 链接                       |    
+| -------- |:--------------:|:-----------:|:-------------------------:|    
+| vibrate-alarm-demo  | 震动报警 | 本地报警已经完成，事件上报测试需要平台配合验证  |[点击链接](https://github.com/tisan-kit/vibrate-alarm-demo) |  
+| two-drive-car-demo  | 双驱车   | 由于驱动只能一个方向，暂未解决，未上传工程 | [点击链接](https://github.com/tisan-kit/two-drive-car-demo) |  
+| usart-gpu-tft-demo  | 串口屏显示，实现手机发送文字到屏显示的功能 | 已经实现，未来进行功能添加：添加温湿度显示、更丰富颜色和中文显示等。  | [点击链接](https://github.com/tisan-kit/usart-gpu-tft-demo) |
+
+
+
 ## 更新历史  
 * V0.1 发布初始版本  
-* V0.2 更新WebIDE的相关操作、更新FAQ
+* V0.2 更新WebIDE的相关操作、更新FAQ  
+* V0.3 新增基于Tisan开发板的开源应用项目说明.
 
 
 
