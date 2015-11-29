@@ -32,9 +32,9 @@ Tisan 其他开源应用项目说明和链接
 
 | 项目名称  | 项目说明     |   实现情况    | 链接                       |    
 | -------- |:--------------:|:-----------:|:-------------------------:|    
-| vibrate-alarm-demo  | 震动报警 | 本地报警已经完成，事件上报测试需要平台配合验证  |[点击链接](https://github.com/tisan-kit/vibrate-alarm-demo) |  
-| two-drive-car-demo  | 双驱车   | 由于驱动只能一个方向，暂未解决，未上传工程 | [点击链接](https://github.com/tisan-kit/two-drive-car-demo) |  
-| usart-gpu-tft-demo  | 串口屏显示，实现手机发送文字到屏显示的功能 | 已经实现，未来进行功能添加：添加温湿度显示、更丰富颜色和中文显示等。  | [点击链接](https://github.com/tisan-kit/usart-gpu-tft-demo) |
+| vibrate-alarm-demo  | 震动报警 | 本地报警已经完成，   事件上报测试需要平台配合验证  |[点击链接](https://github.com/tisan-kit/vibrate-alarm-demo) |  
+| two-drive-car-demo  | 双驱车   | 由于驱动只能一个方向，暂未解决.  未上传工程 | [点击链接](https://github.com/tisan-kit/two-drive-car-demo) |  
+| usart-gpu-tft-demo  | 串口屏显示，   实现手机发送文字到屏显示的功能 | 已经实现.   未来进行功能添加：   添加温湿度显示、更丰富颜色和中文显示等。  | [点击链接](https://github.com/tisan-kit/usart-gpu-tft-demo) |
 
 
 
