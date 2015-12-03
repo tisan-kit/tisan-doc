@@ -22,7 +22,13 @@ Tisan平台服务源码在Github上维护，欢迎参与：
 [https://github.com/PandoCloud/pando-cloud](https://github.com/PandoCloud/pando-cloud)  
 
 Tisan资源下载中心：  
-[http://pan.baidu.com/s/1c0r0ba4](http://pan.baidu.com/s/1c0r0ba4)
+[http://pan.baidu.com/s/1c0r0ba4](http://pan.baidu.com/s/1c0r0ba4)  
+
+Tisan固件开发手册：  
+[Tisan固件开发者指南](https://www.gitbook.com/book/sw0813/tisan-firmware-developer-guide/details)  
+[Tisan固件API编程指南](https://www.gitbook.com/book/sw0813/tisan-firmware-api-programming-guide/details)  
+ 
+
 
 
 感谢所有的[贡献者](https://github.com/orgs/tisan-kit/people)  
