@@ -41,7 +41,7 @@ Tisan 其他开源应用项目说明和链接
 | vibrate-alarm-demo  | 震动报警 | 本地报警已经完成，<br/>事件上报测试需要平台配合验证  |[点击链接](https://github.com/tisan-kit/vibrate-alarm-demo) |  
 | two-drive-car-demo  | 双驱车   | 采用TB6612FNG驱动模块.<br/> 已上传工程并经过测试 | [点击链接](https://github.com/tisan-kit/two-drive-car-demo) |  
 | usart-gpu-tft-demo  | 串口屏显示<br/> 实现手机发送文字到屏显示的功能。<br/>不同颜色显示温湿度 | 已经实现.<br/> 未来进行功能添加：<br/>更丰富颜色<br/>中文显示等。  | [点击链接](https://github.com/tisan-kit/usart-gpu-tft-demo) |
-| ds1307-plug-demo    | 本地定时开关，单任务。<br/> 手机端可实现设备：<br/>时间同步、任务设置、遥控开关 | [点击链接](https://github.com/tisan-kit/ds1307-plug-demo) |  
+| ds1307-plug-demo    | 本地定时开关，可以设置定时任务。<br/> 手机端可实现设备：<br/>时间同步、任务设置、遥控开关 | 已经实现，当前任务是单任务。  | [点击链接](https://github.com/tisan-kit/ds1307-plug-demo) |  
 
 
 
