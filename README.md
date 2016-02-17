@@ -9,7 +9,7 @@
 
 Tisan官方网站：[http://tisan.pandocloud.com/](http://tisan.pandocloud.com/)   
 
-Tisan QQ社区号1： 230508748；       
+Tisan QQ社区号1： 230508748；QQ社区号2：  107925886；      
 Tisan论坛链接：[http://bbs.elecfans.com/zhuti_820_1.html](http://bbs.elecfans.com/zhuti_820_1.html)  
 Tisan视频教程链接：[http://i.youku.com/u/UMTIwNTA2MTM2MA==](http://i.youku.com/u/UMTIwNTA2MTM2MA==)  
 
